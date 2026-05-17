@@ -26,6 +26,8 @@ import { JoinPage } from './pages/JoinPage'
 import { LoginPage } from './pages/LoginPage'
 import { RegisterPage } from './pages/RegisterPage'
 import { SecurityPage } from './pages/SecurityPage'
+import { ForgotPasswordPage } from './pages/ForgotPasswordPage'
+import { UpdatePasswordPage } from './pages/UpdatePasswordPage'
 
 export default function App() {
   return (
@@ -42,6 +44,8 @@ export default function App() {
         <Route path="/precios" element={<PlaceholderPage title="Planes para asesores" />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/registro" element={<RegisterPage />} />
+        <Route path="/recuperar-password" element={<ForgotPasswordPage />} />
+        <Route path="/actualizar-password" element={<UpdatePasswordPage />} />
         <Route path="/favoritos" element={<CatalogPage onlyFavorites />} />
         <Route path="/terminos" element={<PlaceholderPage title="Terminos de uso" />} />
         <Route path="/privacidad" element={<PlaceholderPage title="Privacidad" />} />
