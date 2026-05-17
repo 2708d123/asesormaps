@@ -77,6 +77,9 @@ export function LoginPage() {
         <p className="mt-5 text-center text-sm text-[#6B7280]">
           No tienes cuenta? <Link to="/registro" className="font-semibold text-[#166534]">Registrate</Link>
         </p>
+        <p className="mt-2 text-center text-sm text-[#6B7280]">
+          <Link to="/recuperar-password" className="font-semibold text-[#166534]">Olvide mi contrasena</Link>
+        </p>
       </form>
     </section>
   )
